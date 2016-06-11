@@ -1,14 +1,14 @@
 import java.util.*;
 public class dice {
-	public static void main(String[] args) {
-   string keepRunning = "y";
-   Scanner scanner = new Scanner(System.in);
-   Random rand = new Random();
+   public static void main(String[] args) {
+     String keepRunning = "y";
+     Scanner scanner = new Scanner(System.in);
+     Random rand = new Random();
      while(keepRunning.equals("y")){
-     int myNumber = 1 + (int)(Math.random() * ((6 - 1) + 1));
-     System.out.println(myNumber);
-     System.out.print("Do you want to continue? ");
-     keepRunning = scanner.next();
+       int myNumber = 1 + (int)(Math.random() * ((6 - 1) + 1));
+       System.out.println(myNumber);
+       System.out.print("Do you want to continue? ");
+       keepRunning = scanner.next();
      }
-	}
+   }
 }
